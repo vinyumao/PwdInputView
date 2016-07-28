@@ -8,4 +8,4 @@
 	但是由于不能给普通控件添加addTextChangeListener 监听，所以本控件后来直接继承了EditText 为其添加TextWatcher 在输入时画圆点,并且隐藏了EditText的光标,和设置了字体颜色为透明
 ###效果图
 
-![img](https://github.com/vinyumao/PwdInputView/app/src/main/assets/pwdInputView.gif)
+![img](https://github.com/vinyumao/PwdInputView/blob/master/app/src/main/assets/pwdInputView.gif)
