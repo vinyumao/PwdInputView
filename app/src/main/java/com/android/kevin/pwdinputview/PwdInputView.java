@@ -122,7 +122,9 @@ public class PwdInputView extends EditText {
 
 			@Override
 			public void afterTextChanged(Editable s) {
-
+				if (s.length() == length){
+					callBack.onInputFinished(s.toString());
+				}
 			}
 		});
 		this.setFocusable(true);

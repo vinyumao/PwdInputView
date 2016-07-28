@@ -14,9 +14,4 @@
         android:id="@+id/pwdinput"
         android:layout_width="240dp"
         android:layout_height="wrap_content"/>
-    <EditText
-        android:id="@+id/ed"
-        android:layout_below="@+id/pwdinput"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
 </RelativeLayout>
